@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.history-wrapper {
+  margin: 0;
+  padding: 0;
+  overflow: hidden scroll;
+  overflow-y: auto;
+  height: 128px;
+  position: relative;
+  top: 10px;
+}
+
+.history {
+  color: white;
+  list-style: none;
+  font-size: 32px;
+  padding: 0px 0px 0px 15px;
+}

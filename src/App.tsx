@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Calculator from "./Components/Calculator";
+import styled from "styled-components";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Support from "./Components/Support";
+
+const Container = styled.div`
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+`;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element:  <Container>
+                  <Calculator />
+                </Container>
+    }, 
+    {
+      path: "/Help",
+      element: <Support />
+    }
+  ])
+
+  return(
+    <RouterProvider router={router} />
   );
 }
 

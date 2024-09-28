@@ -1,0 +1,154 @@
+.support-header {
+    font-weight: 550;
+    margin: 15px 0px 0px 10px;
+  }
+  
+  #line {
+    margin-left: 10px;
+    width: 85%;
+  }
+  
+  .header-wrapper {
+    display: flex;
+  }
+  
+  .header-wrapper span {
+    color: red;
+    margin-top: 4%;
+    margin-left: 1%;
+    font-size: 20px;
+  }
+  
+  .form-header {
+    margin: 0px;
+  }
+  
+  input {
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 25px;
+  }
+  
+  input:focus-within {
+    border: 1px solid #B27512;
+    outline: none;
+  }
+  
+  .form-header {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  #optional {
+    color: #5F5F5F;
+    font-size: 12px;
+  }
+  
+  .name-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .form-name {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name-label {
+    color: #A8A4A4;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  #last-name-label {
+    margin-left: 4px;
+  }
+  
+  .email-wrapper input {
+    width: 96%;
+  }
+  
+  #radio-text {
+    margin: 15px 0px 0px 0px;
+  }
+  
+  .general {
+    color: white;
+  }
+  
+  .radio-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  #radio-text, .radio-wrapper {
+    margin-left: 20px;
+  }
+  
+  textarea {
+    color: white;
+    background-color: black;
+    resize: none;
+    width: 107%;
+    padding: 10px;
+  }
+  
+  textarea:focus {
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid #B27512;
+  }
+  
+  #send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #585656;
+    color: white;
+    font-size: 28px;
+    width: 15%;
+    height: 10%;
+    margin-left: 76%;
+    margin-top: 8px;
+  }
+  
+  #test {
+    width: 100px;
+    height: 200px;
+    word-break: break-all;
+  }
+  
+  .success-message {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+  }
+  
+  .success-text {
+    width: 70%;
+    text-align: center;
+    color: #F39F22;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .ticket-number {
+    color: #A4A4A4;
+  }
+  
+  .ticket-number span {
+    color: white;
+  }
